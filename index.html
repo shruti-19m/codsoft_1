@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <span class="logo">SHRUTI MANDAL</span>
+      <nav>
+        <ul id="navbar">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#tasks">Tasks</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home/Intro -->
+  <section id="home" class="intro-section">
+    <div class="container intro-flex">
+      <div class="intro-content">
+        <h2>Hello, I am</h2>
+        <h1 class="gradient-text">SHRUTI MANDAL</h1>
+        <p class="subtitle"> Web Developer / Designer / Creative Thinker </p>
+        
+        <div class="socials">
+         <a href="https://www.linkedin.com/in/shruti-mandal-529881368" class="btn" target="_blank">View LinkedIn</a>
+        </div>
+        <div
+          <a href="https://github.com/shruti-19m" class="btn" target="_blank">View GitHub</a>
+        </div>
+      </div>
+      <div class="intro-image">
+        <img src="public/image.jpeg" alt="Shruti Mandal Photo"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="container about-flex">
+      
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          <div>
+            Hi, I’m Shruti Mandal, a passionate and creative beginner Web Developer and Designer. I love building visually appealing, user-friendly websites and continuously learning new technologies.
+         </div>
+         <div>
+             I have hands-on experience with HTML, CSS, JavaScript, Git & GitHub, and Java, and I’m currently expanding my skills in responsive design and modern web practices.
+         </div>
+         <div>
+
+             Whether it's front-end design or solving logical problems through code, I enjoy turning ideas into reality through clean and interactive web experiences and also learning new tech and building user-friendly web applications.
+         </div>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>Key <span>Skills</span></h2>
+      <div class="skills-cards">
+        <div class="skill-card">
+          <span class="icon">&#60;&#47;&#62;</span>
+          <h3>Web Development</h3>
+          <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>Git & GitHub</li>
+          <li>Responsive Design</li>
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="tasks" class="projects-section">
+    <div class="container">
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+         <a href="https://github.com/shruti-19m/Web-Dev-Projects/tree/main/Project_1_amazon_Clone" class="btn" target="_blank">View Amazon Clone</a>
+          <h3>Amazon Clone</h3>
+          <p>Developed a feature-rich Amazon clone using full-stack development. The application replicates core functionalities of the famous e-commerce platform, allowing users to browse products, search and filter items, manage a shopping cart, authenticate securely, and simulate checkout and order placement.</p>
+        </div>
+
+
+        <div class="project-card">
+          <a href="https://github.com/shruti-19m/Web-Dev-Projects/tree/main/Project_2_myntra_Clone" class="btn" target="_blank">View Myntra Clone</a>
+          <h3>Myntra Clone</h3>
+          <p>Developed a Myntra clone  inspired by the popular fashion e-commerce platform. The app offers a sleek, mobile-friendly shopping experience for fashion and accessories, with advanced browsing, product management, and user features. Responsive design for mobile and desktop devices.</p>
+        </div>
+
+        
+        <div class="project-card">
+          <a href="https://github.com/shruti-19m/Drone_Controller.git" class="btn" target="_blank">View Drone Project</a>
+          <h3>Drone Project</h3>
+          <p>Developed a custom drone controller using embedded systems and IoT technology. The project focused on providing real-time control and telemetry for drones, leveraging microcontroller programming and wireless communication. Wireless command and live telemetry using IoT protocols.</p>
+        </div>
+
+        <div class="project-card">
+          <a href="https://github.com/shruti-19m/CODSOFT/tree/b954aea13e2f91bfc0ac8abb5fd3dd86f9606cb3/calculator%20project1" class="btn" target="_blank">View Calculator Project</a>
+          <h3>Calculator</h3>
+          <p>Developed a simple calculator application using HTML, CSS, and JavaScript. The project demonstrates basic arithmetic operations and user interaction through a clean and intuitive interface.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/shruti-19m/CODSOFT/tree/b954aea13e2f91bfc0ac8abb5fd3dd86f9606cb3/Landing_page(project3)" class="btn" target="_blank">View Landing Page</a>
+          <h3>Landing Page</h3>
+          <p>Developed a responsive landing page using HTML, CSS, and JavaScript. The project showcases a modern design with smooth scrolling and interactive elements to enhance user engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+    <h2>Contact <span>Me</span></h2>
+      <form class="contact-form">
+      <div class="contact-card">
+      <div class="contact-card-icon">
+         
+          </div>
+          <div>
+            <input type="text" name="name" placeholder="Full Name" required>
+          </div>
+      <div>
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+      <div>
+        <input type="text" name="subject" placeholder="Subject">
+      </div>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: shrutimandal97293512@gmail.com</p>
+        <p>Phone: +91-7564967119</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer ">
+
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
